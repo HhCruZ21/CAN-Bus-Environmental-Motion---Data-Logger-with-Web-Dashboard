@@ -32,6 +32,14 @@ them to a local Wi-Fi network via MQTT over TLS. A Raspberry Pi running Linux
 receives the MQTT messages, persists them to a SQLite database, and serves
 them through a REST API to a browser-based live dashboard.
 
+![System Context Diagram](../diagrams/system_context.png)
+
+*Figure 1 — System context. The two external actors are the
+physical environment feeding sensor data in, and the dashboard user reading
+data out via a browser.*
+
+The internal pipeline connecting all four nodes is shown below:
+
 ```
 Physical world
       │
