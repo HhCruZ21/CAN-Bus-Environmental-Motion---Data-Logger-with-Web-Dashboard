@@ -165,6 +165,10 @@ When a sensor does not ACK on the I²C bus:
 interrupt driving all sensor acquisition at 1 Hz. No dynamic memory allocation
 anywhere in the firmware (`malloc`/`free` never called).
 
+**Component diagram:**
+
+![Node A Component Diagram](../diagrams/node_a_component.png)
+
 **Module structure:**
 
 ```
