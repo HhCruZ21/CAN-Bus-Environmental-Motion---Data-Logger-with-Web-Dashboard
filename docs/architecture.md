@@ -212,6 +212,10 @@ every frame ID.
 
 **Hardware:** ESP32 dev board (dual-core Xtensa LX6, 240 MHz, 4 MB flash, Wi-Fi 802.11 b/g/n)
 
+**Component diagram:**
+
+![Node B Component Diagram](../diagrams/node_b_component.png)
+
 **Programming model:** Arduino framework (C++). Avoids `delay()` in production
 paths; all timing via `millis()` comparisons. Wi-Fi credentials stored in
 `provisioning.h` (gitignored), never hard-coded in source.
