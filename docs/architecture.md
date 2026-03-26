@@ -255,6 +255,10 @@ JSON payload schemas.
 
 **Hardware:** Raspberry Pi 4 (2 GB RAM), Raspberry Pi OS 64-bit, 16 GB microSD.
 
+**Component diagram:**
+
+![Node C Raspberry Pi connection diagram](../diagrams/raspberry_pi_connection.drawio.png)
+
 **Services (all managed by systemd, auto-start on boot):**
 
 | Service | Unit file | Port | Description |
